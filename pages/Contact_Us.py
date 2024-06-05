@@ -5,7 +5,7 @@ from send_email import send_email
 
 st.header("Contact Me")
 
-df = pd.read_csv(r"C:\Users\Dell\Documents\pycharm\app2\practice\topics.csv")
+df = pd.read_csv("topics.csv")
 
 with st.form(key="emai_forms"):
     user_email = st.text_input("enter an email address")
