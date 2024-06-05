@@ -3,7 +3,7 @@ import streamlit as st
 from send_email import send_email
 
 
-st.header("Contact Me")
+st.header("Contact Us")
 
 df = pd.read_csv("topics.csv")
 
